@@ -10,9 +10,9 @@
             $(document).ready(function(){
                 $("#me, .links, #resume, #projArt").hide();
                 $("#about, #cv, #proj, #git, #linkedin, #contact").hover(function(){
-                    $(this).css("border-style", "solid solid solid solid");
+                    $(this).css("border-color", "#ffffff #ffffff #ffffff #ffffff");
                 }, function(){
-                    $(this).css("border-style", "solid none none solid");
+                    $(this).css("border-color", "#ffffff transparent transparent #ffffff");
                 });
                 $("#linkbook, #linkpond").hover(function(){
                     $(this).css("font-style", "none");
@@ -62,10 +62,11 @@
             <div id='resume'>
                 <p id='cat'>Skills</p>
                 <ul>
-                    <li>HTML</li>
+                    <li>HTML  ·  HTML5</li>
                     <li>CSS</li>
                     <li>Javascript · Jquery</li>
                     <li>SQL</li>
+                    <li>SSMS</li>
                     <li>XML</li>
                 </ul>
                 <p id='cat'>Employment</p>
@@ -85,7 +86,7 @@
                 </ul>
                 <p id='cat'>Education</p>
                 <ul>
-                    <li><i>MA Archaeology</i> · University College London · United Kingdom · 2011-2012</li>
+                    <li><i>MA Archaeology</i> · University College London · London, United Kingdom · 2011-2012</li>
                     <li><i>Timoleague Archaeology Project</i> · University College Cork/UCLA · Cork, Ireland · 2010</li>
                     <li><i>BA English</i> · CSU Channel Islands · Camarillo, CA · 2006-2010</li>
                 </ul>
