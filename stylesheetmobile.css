@@ -161,6 +161,35 @@ article {
     -webkit-backdrop-filter: blur(10px);
 }
 
+#pixel {
+    text-align:justify;
+    margin-top: 60px;
+    max-width: 70%;
+    display:inline-block;
+    border-style: solid solid solid solid;
+    border-color: #ffffff transparent transparent #ffffff;
+    border-width: 2px;
+    padding-left: 3px;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px #000000;
+    margin-bottom: 40px;
+    -webkit-backdrop-filter: blur(10px);
+}
+
+#goo {
+    text-align:justify;
+    margin-top: 60px;
+    max-width: 70%;
+    display:inline-block;
+    border-style: solid solid solid solid;
+    border-color: #ffffff transparent transparent #ffffff;
+    border-width: 2px;
+    padding-left: 3px;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px #000000;
+    margin-bottom: 40px;
+    -webkit-backdrop-filter: blur(10px);
+}
 #books {
     text-align:justify;
     margin-top: 60px;
@@ -191,6 +220,15 @@ article {
     -webkit-backdrop-filter: blur(10px);
 }
 
+#linkpixel {
+    font-style: italic;
+    color: #ffffff;
+}
+
+#linkgoo {
+    font-style: italic;
+    color: #ffffff;
+}
 #linkbook {
     font-style: italic;
     color: #ffffff;
